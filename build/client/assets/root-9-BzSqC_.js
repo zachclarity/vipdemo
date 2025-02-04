@@ -1,0 +1,11 @@
+import{b as p,f as h,r as l,j as e,O as m}from"./index-CGKE_yqd.js";import{E as w}from"./ErrorReport-DufojM8E.js";import"./index-CPe-BBEd.js";import{w as x}from"./performance-DIYoRYIw.js";import{d as g,e as S,_ as j,M as b,f as I,S as E}from"./components-BktKjo96.js";import"./node-B4O4sgZ3.js";(function(){try{var t=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},r=new t.Error().stack;r&&(t._sentryDebugIds=t._sentryDebugIds||{},t._sentryDebugIds[r]="1900647c-0a6d-4339-af3d-94d41c5da6e7",t._sentryDebugIdIdentifier="sentry-dbid-1900647c-0a6d-4339-af3d-94d41c5da6e7")}catch{}})();/**
+ * @remix-run/react v2.15.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */let c="positions";function k({getKey:t,...r}){let{isSpaMode:n}=g(),i=p(),d=h();S({getKey:t,storageKey:c});let u=l.useMemo(()=>{if(!t)return null;let s=t(i,d);return s!==i.key?s:null},[]);if(n)return null;let f=((s,y)=>{if(!window.history.state||!window.history.state.key){let o=Math.random().toString(32).slice(2);window.history.replaceState({key:o},"")}try{let a=JSON.parse(sessionStorage.getItem(s)||"{}")[y||window.history.state.key];typeof a=="number"&&window.scrollTo(0,a)}catch(o){console.error(o),sessionStorage.removeItem(s)}}).toString();return l.createElement("script",j({},r,{suppressHydrationWarning:!0,dangerouslySetInnerHTML:{__html:`(${f})(${JSON.stringify(c)}, ${JSON.stringify(u)})`}}))}const _="/assets/ReactToastify-BE4BdE5o.css",M="/assets/app-CrOLiJih.css",T=()=>[{rel:"stylesheet",href:M},{rel:"stylesheet",href:_}];function B(){return[{title:"vIP - Virtual In-Processing"}]}const P=w;function O(){return e.jsxs("html",{lang:"en",children:[e.jsxs("head",{children:[e.jsx("meta",{charSet:"utf-8"}),e.jsx("meta",{name:"viewport",content:"width=device-width, initial-scale=1"}),e.jsx("title",{children:"Virtual In-Processing"}),e.jsx(b,{}),e.jsx(I,{})]}),e.jsxs("body",{className:"text-slate-900 h-screen",children:[e.jsx(m,{}),e.jsx(k,{}),e.jsx("script",{children:"window.global = window;"}),e.jsx(E,{})]})]})}const $=x(O);export{P as ErrorBoundary,$ as default,T as links,B as meta};
+//# sourceMappingURL=root-9-BzSqC_.js.map
